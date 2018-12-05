@@ -10,7 +10,6 @@ services:
         ports: 
             - 80:8000
         volumes:
-            - .:/usr/src/webapp
             - ./logs:/usr/src/webapp/storage/logs
     
     mysql:
